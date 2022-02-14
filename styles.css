@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-items: center;
+    background: #18181A;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    justify-content: center;
+}
+
+body h3 {
+    color: #FFF;
+    font-size: 24px;
+    margin: 20px;
+}
+
+section {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+section hr {
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid #C4C4C4;
+}
+
+section .entrar {
+    font-size: 18px;
+}
+
+section label {
+    color: #FFF;
+    font-size: 16px;
+}
+
+section #cadastrar {
+    margin-left: 10px;
+    color: #FFF;
+}
+
+section .form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin: 10px 0;
+    background: #464648;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    height: 34px;
+    padding: 10px 10px;
+    width: 364px;
+}
+
+input:focus {
+    background: black;
+    border: 3px solid #9B79CD;
+    outline: none;
+}
+
+section .form a {
+    font-size: 14px;
+}
+
+a {
+    color: #9B79CD;
+    text-decoration: none;
+}
+
+button {
+    margin-top: 10px;
+    background: #29292B;
+    border-radius: 5px;
+    border: none;
+    color: #FFF;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    height: 34px;
+    width: 364px;
+}
