@@ -30,7 +30,7 @@ section {
 section hr {
     background: #C4C4C4;
     border: none;
-    height: 1px;
+    height: 0.5px;
     margin: 10px 0;
 }
 
